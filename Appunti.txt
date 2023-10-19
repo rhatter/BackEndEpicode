@@ -1,0 +1,88 @@
+creo la cartella
+be
+
+
+dentro be lancio:
+
+per creare il package.json:
+npm init -y
+
+per usare i DB mongoose:
+npm install mongoose express
+
+perchè il server si rilanci ogni volta c he salvo:
+npm i -D nodemon 
+
+per il caricamento immagini
+npm i multer multer-storage-cloudinary cloudinary
+
+per il mailer
+npm i nodemailer
+
+per usare le variabili d'ambiente:
+npm install dotenv 
+
+per decodificare la stringa del token
+npm i bcrypt jsonwebtoken
+
+cors
+npm i cors
+
+libreria per autenticarsi con le api su diversi server tipo google
+npm i passport passport-github2 
+
+per gestire le sessioni degli utenti
+npm i express-session
+
+
+
+Aggiungo al package.json dentro scripts   "dev": "nodemon server.js"
+Tolgo dal main "index.js"
+
+
+Creo dentro la cartella be il file ".env"
+che conterrà le mie variabili d'ambiente
+
+creo le variabili d'ambiente con sintassi, tutto maiuscolo
+REACT_APP_NOMEDELLAVARIABILEAMBIENTE
+
+Lancio il server da terminale:
+npm run dev
+
+Ora dentro server js creo il mio server, i passaggi dentro server.js
+occhio che mentre crei il server ti viene detto di creare le rotte e modelli
+vedi dentro la cartella "routes" l'esempio di creazione rotte
+vedi dentro la cartella "models" l'esempio di creazione modelli
+
+Se arrivi fino qui, il tuo server riceve e manda dati a moongoose
+ora puoi creare un Frontend che interagisce con questo server
+
+Nota prima di cominciare, ricordati che la porta del tuo FrontEnd in React 
+sarà diversa da quella che vai a richiamare come server.
+
+Quindi => Frontend
+
+spostati nella cartella padre di be
+Io per comodità chiamo l'app fe (ossia, front end)
+lancio:
+npx create-react-app fe
+
+mi sposto dentro fe e lancio:
+
+per una paginazione più semplice:
+npm install react-responsive-pagination
+
+per usare la libreria axios al posto delle fetch:
+npm install axios
+
+lancio altr aroba utile:
+npm install react-bootstrap bootstrap
+npm install nanoid
+npm install @reduxjs/toolkit react-redux
+
+Installato tutto, lancio:
+npm start
+
+
+
+
