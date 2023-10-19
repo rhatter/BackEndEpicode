@@ -1,13 +1,11 @@
 .NavBar img {
   height: 80px;
-  border-radius: 100%;
-  aspect-ratio: 1;
   object-fit: cover;
-  mix-blend-mode: multiply;
 }
 
 .NavBar {
   justify-content: center;
+  margin: 0 !important;
 }
 
 .searchMain {

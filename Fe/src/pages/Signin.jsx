@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MyNavBar from "../components/NavBar/NavBar";
-import "./Home.css";
-import Articles from "../components/Articles/Articles";
-import SearchBar from "../components/SearchBar/SearchBar";
 
-function Home() {
+function Signin() {
   const redirectHandler = () => {
     window.location.href = `${process.env.REACT_APP_URL}/auth/github`;
   };
@@ -12,10 +9,8 @@ function Home() {
   return (
     <>
       <MyNavBar />
-      <SearchBar />
-      <Articles />
     </>
   );
 }
 
-export default Home;
+export default Signin;
